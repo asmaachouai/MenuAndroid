@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_partage_id"
+          android:icon="@drawable/partager"
+          android:title="partager" />
+    <item android:title="Sous menu">
+    <menu>
+      <item android:id="@+id/item3" android:title="Facebok" 
+          android:checkable="true"/>
+      <item android:id="@+id/item4" android:title="Tweeter"/>
+    </menu>
+    </item>     
+    <item android:id="@+id/menu_precedent_id"
+          android:icon="@drawable/suivant"
+          android:title="precedent" />
+
+    <item android:id="@+id/menu_suivant_id"
+          android:icon="@drawable/precedent"
+          android:title="suivant" />
+
+</menu>
+      
